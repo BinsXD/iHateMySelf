@@ -1,0 +1,27 @@
+.group,
+.group-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlap-group {
+  background: linear-gradient(90deg, #a00000, #400000);
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.overlap-group:hover {
+  transform: scale(1.05);
+}
+
+.text {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
